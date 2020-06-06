@@ -1,0 +1,384 @@
+
+
+/*for header 1*/
+.header1bg{
+    background:#252a2b;
+    padding-bottom:15px;
+    padding-top: 8px;
+}
+.textleft{
+    text-align: left;
+}
+.textright{
+    text-align: right;
+}
+/* for navbar*/
+.navbg{
+    background:#252a2b ;
+    padding-top: 15px;
+}
+.hoverb a{
+    font-size: 17px;
+    padding:10px 0px 10px 0px;
+    
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+}
+
+.homeactive{
+    background-color: #ea723d !important;
+    color: white !important;
+} 
+.hoverb a:hover{
+background: #ea723d ;
+color: white !important;
+}
+.navbar-light{
+    color: white !important;
+}
+/* for property search*/
+.box1{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+/*for section1*/
+.bg{
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+/*card section1*/
+.pt1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.cwidth{
+    width: 22rem;
+}
+
+.card-body a{
+    background: #ea723d;
+    padding-bottom: 10px;
+    
+}
+.btn-danger {
+    background: #ea723d;
+    
+}
+/*For ratio*/
+.rabg{
+ background:url(./images/4.jpg);
+ background-repeat: no-repeat !important;
+ padding-bottom: 60px;
+ padding-top: 65px;
+ text-align: center;
+}
+.rimg{
+    font-size: 90px;
+    color: white;
+}
+.bod{
+    border-right: 1px solid gray;
+}
+@media(max-width:992.9px){
+    .bod{
+        border-right: none;
+    }
+}
+@media(max-width:575.9px){
+    .bod{
+        border-right: none;
+    }
+}
+
+/*news cards*/
+.c1width{
+    width: 22rem;
+
+}
+.c2width{
+    width:16rem;
+}
+
+/*map*/
+
+    .map-container iframe{
+    height:80%;
+    width:100%;
+    }
+/*for contact form*/
+.header1 {
+    color: #36A0FF;
+    font-size: 27px;
+    
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.page-section {
+    padding: 0rem 0;
+  }
+ 
+  .form-control{
+      line-height: 3 !important;
+  }
+  @media (max-width: 575.98px){
+    .form-control{
+        line-height: 2.5 !important;
+    }
+}
+
+/*for banner*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.h1f{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 58px;
+    word-spacing: 6px;
+}
+.h4f{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+}
+.cbanner{
+position: relative;    
+min-height: 0vh;
+background: url(./images/about2.jpg);
+background-position: center;
+background-size: cover;
+padding: 160px 0 160px;
+
+}
+.cbanner1{
+    position: relative;    
+    min-height: 0vh;
+    background: url(./images/saleRentF.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0 160px;
+    
+    }
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+
+/*card media */
+@media (max-width: 1199.98px) { 
+.cwidth{
+    width: 18rem;
+}
+}
+@media (max-width: 991.98px) { 
+    .cwidth{
+        width: 25rem;
+    }
+}
+@media (max-width: 767.98px) { 
+    .cwidth{
+        width: 22rem;
+    }
+}
+@media (max-width: 575.98px){
+.cwidth{
+    width: 16rem;
+}
+}
+
+/*news & updates media*/
+@media (max-width: 1199.98px) { 
+    .c1width{
+        width: 18rem;
+    }
+    }
+    @media (max-width: 991.98px) { 
+        .c1width{
+            width: 25rem;
+        }
+    }
+    @media (max-width: 767.98px) { 
+        .c1width{
+            width: 22rem;
+        }
+    }
+    @media (max-width: 575.98px){
+    .c1width{
+        width: 16rem;
+    }
+    }
+
+
+
+
+
+
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(4rem + 2px) !important;
+    border-radius:0;
+    
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(4rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: absolute;
+        top: 450px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: white;
+    }
+}
+
+.shead{
+    
+    font-weight: 800;
+    color: white;
+}
+@media (min-width: 992px){
+    .shead{
+        position: absolute;
+        top: 300px;
+        width: 100%;
+        font-size: 28px !important;
+    }
+}
+@media (max-width: 575px){
+    .shead{
+        color: black;
+        font-size: 12px !important;
+    }
+}
+
+/*for video*/
+@media (max-width: 992.98px) { 
+    .wi1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+.wi{
+    width: 100%;
+}
+}
+@media (max-width: 767.98px) { 
+    .wi{
+        width: 100%;
+    
+        
+    }
+
+}
+@media (min-width: 992.98px) { 
+    .wi{
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .pdl{
+     text-align: center;
+     padding-top: 30px;   
+    }
+}
+@media (min-width: 1199.98px) { 
+    .pdl{
+        padding-left: 3rem;
+    }
+}
+@media (max-width: 769.98px) { 
+ .pdl{
+     text-align: center;
+ }
+}
+@media (max-width: 992.98px) { 
+    .pdl{
+        padding-top: 30px;
+        text-align: center;
+    }
+   }
+
+/*for shead */
+   @media (max-width: 992.98px) { 
+       .fnone{
+           font-size: 0px !important;
+       }
+   }
+
+   @media (min-width: 992.98px) {
+       .smwidth{
+           font-size: 0px !important;
+
+       }
+   }
+
+/*For banner*/
+@media (max-width: 575px){
+.cbanner1{
+    padding: 125px 0 135px !important;
+}
+}
+
+@media (max-width: 575px){
+    .cbanner{
+        padding: 125px 0 135px !important;
+    }
+    }
+@media (max-width: 575px){
+.h1f{
+    font-size: 45px ;
+}
+.h4f{
+    font-size: 25px !important;
+}
+.h4abf{
+    font-size: 39px !important;
+}
+}
+  /*for footer*/
+  @media (max-width: 575px){
+    .fs{
+        font-size: 12px;
+    }
+}
+  /*for nav*/
+  @media (max-width: 575px){
+    .alignC{
+        text-align: center;
+    }
+}
